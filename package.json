@@ -1,0 +1,30 @@
+{
+  "name": "rn-kvdb",
+  "version": "1.0.0",
+  "description": "Type-safe permanent storage API with an in-memory cache. React native UI components can use hooks to listen on changes to data in db. Works like redux with added benefit of being backed by permanent storage. Intended to be used for cross-platform apps spanning mobile and the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slurp-LLC/kvdb.git"
+  },
+  "keywords": [
+    "db",
+    "redux",
+    "key",
+    "value",
+    "asyncstorage"
+  ],
+  "author": "daku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Slurp-LLC/kvdb/issues"
+  },
+  "homepage": "https://github.com/Slurp-LLC/kvdb#readme",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo-crypto": "^12.8.1"
+  }
+}
